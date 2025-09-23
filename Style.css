@@ -55,7 +55,7 @@ body{margin: 0px; position: relative;}
     background-color: #111;
 }
 img {clear:right;margin-left:120px;width: 500px;}
-.images {float: left;height: 375px;}
+.images {float: left;height: 375px; margin-top: 10px;}
 .images:hover {transform: scale(1.1);box-shadow: 0 4px 16px rgba(0,0,0,0.3);transition: transform 0.3s, box-shadow 0.3s;}
 #div1{clear: both;}
 footer {
