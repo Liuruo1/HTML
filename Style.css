@@ -1,6 +1,9 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+body {
+  padding-bottom: 100px; /* Adjust value to match or exceed footer height */
+}
 #logo {
     position: absolute;
     top: 0;
@@ -55,21 +58,13 @@ body{margin: 0px; position: relative;}
     background-color: #111;
 }
 img {clear:right;margin-left:100px;width: 450px;}
+img {
+    border: 2px solid black;
+}
 .images {float: left;height: 375px; margin-top: 10px;}
 .images:hover {transform: scale(1.1);box-shadow: 0 4px 16px rgba(0,0,0,0.3);transition: transform 0.3s, box-shadow 0.3s;}
 #div1{clear: both;}
-footer {
-    width: 100%;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1px ;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    font-size: 12px;
-    z-index: 100;
-}
+
 
 .social-media a {
     color: white;
@@ -88,6 +83,7 @@ footer {
     width: 900px;
     height: 500px;
     margin: 20px;
+    
 }
 
 main ul {
@@ -115,11 +111,10 @@ main ul li {
 #contact-info {
     text-align: left;
     font-size: 18px;
-    margin-top: 20px;
     font-weight: 600;
     position: absolute;
     left: 550px;
-        bottom: -10px; 
+        bottom: 100px; 
     white-space: nowrap;
 }
 #p1 {
@@ -130,6 +125,82 @@ main ul li {
     display: block;
         position: absolute;
         left: 550px;
-        bottom: -300px;
+        bottom: -200px;
         
+}
+main div h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    display: block;
+}
+main div button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #1c93cd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+main div button:hover {
+    background-color: #155d7a;
+}
+   .workout-container {
+            width: 90%;
+            margin: 20px auto;
+            overflow: auto; /* clearfix */
+        }
+
+.workout-card {
+    float: left;
+    width: 28%;              /* 3 cards fit side by side */
+    margin: 20px 1.66%;         /* even spacing */
+    padding: 15px;
+    background: #fff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.workout-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: 300px;
+}
+
+.workout-card h2 {
+    margin: 10px 0;
+}
+
+.workout-card button {
+    margin-top: 10px;
+}
+footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px ;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 12px;
+    z-index: 100;
+}
+blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #1c93cd;
+    margin: 20px;
+    padding-left: 15px;
+    text-align: center;
+}
+cite {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
 }
