@@ -1,0 +1,38 @@
+.workout-card {
+    float: left;
+    width: 28%;              
+    margin: 20px 1.66%;       
+    padding: 15px;
+    background: #fff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.workout-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: 300px;
+}
+
+.workout-card h2 {
+    margin: 10px 0;
+}
+
+.workout-card button {
+    margin-top: 10px;
+}
+blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #1c93cd;
+    margin: 20px;
+    padding-left: 15px;
+    text-align: center;
+}
+cite {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
