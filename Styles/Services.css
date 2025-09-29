@@ -7,19 +7,47 @@
     font-style: italic;
     
 }
-main ul {
+
+.services-list {
     display: flex;
     list-style-type: disc;
     width: 100%;
     text-align: left;
-    justify-content: left;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     font-size: 20px;
+    
 }
-img {
+.services-list ul,.image-container {
+    flex: 1;
+    font-size : 30px;
+
+}
+.services-list ul {
     display: flex;
-    margin: 0 auto;
+    flex-direction: column;
+    gap: 20px;
+}
+.image-container {
     width: 50%;
-    border: 2px solid black;
+    border: none;
+    height: 50%;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+.services-link {
+    text-decoration: none;
+    color: black;
+}
+.services-link:hover {
+    color: #1c93cd;
+}
+
+.services-link:active {
+    color: red;
+}
+.services-link:link {
+    color: blue;
 }

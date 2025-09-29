@@ -1,5 +1,14 @@
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+.nutrition-container {
+    display: flex;
+    justify-content: space-between;
+}
 .workout-card {
-    float: left;
+    
     width: 28%;              
     margin: 20px 1.66%;       
     padding: 15px;
